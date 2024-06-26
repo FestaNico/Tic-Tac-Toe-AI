@@ -19,7 +19,7 @@ h1 {
 
 #scoreTable table {
     border-collapse: collapse;
-    width: 20%;
+    width: 17.5%;
     margin: auto;
     text-align: center;
     font-size: 2em;
@@ -33,16 +33,16 @@ h1 {
 #board {
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
-    height: 600px;
+    width: 375px;
+    height: 375px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
 }
 
 .square {
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     border: 1px solid #D3D3D3;
     background-color: #F5F5F5;
     font-size: 100px;
@@ -62,12 +62,12 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-    height: 75px;
-    width: 150px;
+    height: 60px;
+    width: 120px;
     background-color: whitesmoke;
     border: 1px solid whitesmoke;
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Bebas Neue", sans-serif;
     color:  grey;
 }
